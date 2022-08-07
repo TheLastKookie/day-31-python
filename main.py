@@ -80,7 +80,6 @@ card_canvas.grid(row=0, column=0, columnspan=2)
 
 # Texts
 title_text = card_canvas.create_text(400, 150, text="", font=("Ariel", 40, "italic"), fill="black")
-print(type(title_text))
 kanji_text = card_canvas.create_text(400, 263, text="", font=("Ariel", 60, "bold"), fill="black", width=400)
 romaji_text = card_canvas.create_text(400, 350, text="", font=("Ariel", 40, "normal"), fill="black")
 
